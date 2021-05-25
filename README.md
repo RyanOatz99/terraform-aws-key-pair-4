@@ -13,7 +13,7 @@ module "app" {
 
   source       = "ckmzdevops/key-pair/aws"
   region       = "us-east-1"
-  key_name     = "review_class"
+  key_name     = "my_key"
   key_location = "~/.ssh/id_rsa.pub"
 
 
